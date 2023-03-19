@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "puppeteer": "^19.7.5"
   },
   "name": "server_ping",
   "version": "1.0.0",
