@@ -1,10 +1,6 @@
-const puppeteer = require('puppeteer');
-
-setInterval(() => {
-  puppeteer.launch({ headless: true }).then(async browser => {
-    const page = await browser.newPage();
-    await page.goto('https://solforms.onrender.com/');
-    console.log('Website visited!');
-    await browser.close();
-  });
-}, 1800000); // 15 minutes in milliseconds
+function visitWebsite() {
+    window.location.href = "https://example.com"; // replace with the website you want to visit
+  }
+  
+  setInterval(visitWebsite, 15 * 60 * 1000); // 15 minutes in milliseconds
+  
